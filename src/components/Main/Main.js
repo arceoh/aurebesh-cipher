@@ -1,6 +1,7 @@
 import React from "react";
 import Aurebesh from "../Aurebesh"
 import CipherSettings from "../CipherSettings";
+import InputMessage from "../InputMessage";
 
 function Main() {
   return (
@@ -8,6 +9,7 @@ function Main() {
       <div className="container mx-auto space-y-8">
         <Aurebesh />
         <CipherSettings />
+        <InputMessage />
       </div>
     </div>
   );
