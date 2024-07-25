@@ -11,7 +11,7 @@ function InputMessage() {
 	const handleChange = (e) => {
 		const input = e.target.value;
 		const strippedInput = stripNonAlphabet(input);
-		const shiftedInput = caesarCipher(strippedInput, 3); // Shift by 3 for example
+		const shiftedInput = caesarCipher(strippedInput, 6);
 
 		setStrippedInputMessage(strippedInput.toLowerCase());
 		setInputMessage(input);
