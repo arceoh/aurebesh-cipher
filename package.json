@@ -1,11 +1,9 @@
 {
   "name": "aurebesh-cipher",
   "version": "1.0.0",
-  "description": "- Takes input text\r - Runs text through an adjustuble ceasar cipher\r - Outputs Aurebesh\r - Optional download jpg file.",
-  "main": "src/index.js",
+  "description": "",
   "source": "src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel",
     "build": "parcel build",
     "new-component": "new-component"
