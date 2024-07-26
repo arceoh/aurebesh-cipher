@@ -1,15 +1,16 @@
-import React from "react";
-import Head from "../Head";
-import Main from "../Main";
-import Aurebesh from "../Aurebesh"
+import React from 'react';
+import Head from '../Head';
+import Main from '../Main';
+import Footer from '../Footer';
 
 function App() {
-  return (
-    <>
-      <Head />
-      <Main />
-    </>
-  );
+	return (
+		<>
+			<Head />
+			<Main />
+			<Footer />
+		</>
+	);
 }
 
 export default App;
