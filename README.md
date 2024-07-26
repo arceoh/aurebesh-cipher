@@ -1,6 +1,17 @@
 # Aurebesh Cipher
 
 - Takes input text
-- Runs text through an adjustuble ceasar cipher
+- Removes special characters
+- Runs text through an adjustable Caesar cipher
 - Outputs Aurebesh
-- Optional download jpg file.
+
+## Demo
+
+[Demo site](https://aurebesh-cipher.onrender.com/)
+
+## Installation
+
+git clone https://github.com/arceoh/aurebesh-cipher
+cd aurebesh-cipher
+npm install
+npm run start
